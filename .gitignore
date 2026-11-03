@@ -1,0 +1,18 @@
+# Llaves: nunca entran al repositorio.
+*.pem
+.env
+llave/
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+# Lo que generan freqtrade y los scripts
+ventanas.csv
+dry_run.json
+parametros-dry-run.json
+user_data/backtest_results/
+user_data/data/
+user_data/logs/
+user_data/strategies/*.json
+*.sqlite
+*.sqlite-*

@@ -1,0 +1,2 @@
+# Los scripts usan solo la biblioteca estándar; freqtrade corre en Docker. pytest es para las pruebas del repo.
+pytest==9.1.1
